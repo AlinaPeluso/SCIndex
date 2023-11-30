@@ -13,9 +13,9 @@ df <- read.csv("sci_2019.csv")
 
 ## Section 2: Generate the 2019 US county-level social capital index
 
-Description and data source of the variables used to generate the
+The following variables have been used to generate the
 2019 social capital index at the US county-level based on the definition of
-social capital from [Rupasingha et al. (2006)]([https://www.ncbi.nlm.nih.gov/pubmed/28823158](https://pure.psu.edu/en/publications/the-production-of-social-capital-in-us-counties)), also known as the Penn State index
+social capital from [Rupasingha et al.](https://www.ncbi.nlm.nih.gov/pubmed/28823158), also known as the Penn State index
 of social capital.
 
 <p align="center">
