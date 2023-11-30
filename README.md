@@ -15,7 +15,7 @@ df <- read.csv("sci_2019.csv")
 
 The following variables have been used to generate the
 2019 social capital index at the US county-level based on the definition of
-social capital from [Rupasingha et al.](https://www.ncbi.nlm.nih.gov/pubmed/28823158), also known as the Penn State index
+social capital from [Rupasingha et al. (2006)](https://www.ncbi.nlm.nih.gov/pubmed/28823158), also known as the Penn State index
 of social capital.
 
 <p align="center">
@@ -36,7 +36,7 @@ df$Olson <- as.numeric(df$Olson) - median(as.numeric(df$Olson))
 head(df)
 ```
 <p align="center">
-<img width="800" src="./headdf.png">
+<img width="900" src="./headdf.png">
 </p>
 
 ## Section 3: Spatial distribution of the 2019 US county-level social capital index
