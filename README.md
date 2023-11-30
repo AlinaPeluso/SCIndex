@@ -1,14 +1,10 @@
 # A county-level spatial analysis of social capital in the United States
 Spatial analysis of Social Capital and Community Heterogeneity at the United States County Level
-[paper](xx) 
+
+Reference paper: [paper](xx) 
 
 
 ## Section 1: Import data
-
-The `MWSL` R package allows for 
-* Estimation of permutation-based MWSL and corresponding effective number of tests (ENT)
-* Estimation of closed-form-expression MWSL and corresponding effective number of tests (Meff)
-* Identification of differentially regulated metabolomics variates for a specific clinical outcome
 
 ```
 df <- read.csv("sci_2019.csv")
@@ -16,6 +12,16 @@ df <- read.csv("sci_2019.csv")
 
 
 ## Section 2: Generate the 2019 US county-level social capital index
+
+Description and data source of the variables used to generate the
+2019 social capital index at the US county-level based on the definition of
+social capital from [Rupasingha et al. (2006)]([https://www.ncbi.nlm.nih.gov/pubmed/28823158](https://pure.psu.edu/en/publications/the-production-of-social-capital-in-us-counties)), also known as the Penn State index
+of social capital.
+
+<p align="center">
+<img width="800" src="./variables.png">
+</p>
+
 
 ```
 library(psych)
@@ -30,7 +36,7 @@ df$Olson <- as.numeric(df$Olson) - median(as.numeric(df$Olson))
 head(df)
 ```
 <p align="center">
-<img width="500" src="./headdf.png">
+<img width="800" src="./headdf.png">
 </p>
 
 ## Section 3: Spatial distribution of the 2019 US county-level social capital index
@@ -57,7 +63,7 @@ tm_shape(df_sp) +
 ```
 
 <p align="center">
-<img width="500" src="./sci.png">
+<img width="800" src="./sci.png">
 </p>
 
 The index varies in the range of $[-2.5,9.7]$ centered on the median. Higher (positive) values of social capital
