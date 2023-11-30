@@ -2,7 +2,7 @@
 Spatial analysis of Social Capital and Community Heterogeneity at the United States County Level
 [paper](xx) 
 
-``` 
+
 ## Section 1: Import data
 
 The `MWSL` R package allows for 
@@ -54,8 +54,7 @@ tm_shape(df_sp) +
             legend.title.size = 1.2)+
   tm_borders(alpha=.9,lwd=0.3) +
   tm_scale_bar(position = c("center", "top"), text.size=0.7) 
-
-  ```
+```
 
 <p align="center">
 <img width="500" src="./sci.png">
