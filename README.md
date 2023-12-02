@@ -1,5 +1,5 @@
 # A county-level spatial analysis of social capital in the United States
-Spatial analysis of Social Capital and Community Heterogeneity at the United States County Level
+
 
 Reference paper: [paper](xx) 
 
