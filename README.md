@@ -27,10 +27,13 @@ The following variables have been used to generate the 2019 social capital index
 
 ```
 df <- read.csv("sci_2019.csv")
+head(df)
 ```
+
 <p align="center">
 <img width="900" src="./headdf.png">
 </p>
+
 
 ## Section 2: Generate the 2019 US county-level social capital index
 
