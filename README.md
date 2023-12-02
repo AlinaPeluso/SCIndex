@@ -50,7 +50,7 @@ summary(df$sci)
 ```
 
 <p align="center">
-<img width="200" src="./summary_sci.png">
+<img width="300" src="./summary_sci.png">
 </p>
 
 The index varies in the range of $[-2.5,9.7]$ centered on the median. 
