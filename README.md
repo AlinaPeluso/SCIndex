@@ -4,6 +4,8 @@ Spatial analysis of Social Capital and Community Heterogeneity at the United Sta
 Reference paper: [paper](xx) 
 
 
+## Section 0: Introduction
+
 *Social capital*, defined as the resources or benefits received through one’s connections with others, contributes to economic efficiency, growth of communities, and population health. 
 
 [Rupasingha et al. (2006)](https://www.sciencedirect.com/science/article/abs/pii/S1053535705000971) developed a high-quality, US county-level social capital index based on individuals’ participation in associational activities, trust, and civic engagement.
