@@ -1,7 +1,7 @@
 # A county-level spatial analysis of social capital in the United States
 
 
-Reference paper: [Spatial analysis of social capital and community heterogeneity at the United States county level (2023)](https://www.sciencedirect.com/science/article/pii/S0143622823002990?dgcid=author)
+Reference paper: [Spatial analysis of social capital and community heterogeneity at the United States county level (2024)](https://www.sciencedirect.com/science/article/pii/S0143622823002990?dgcid=author)
 
 
 ## Section 0: Introduction
