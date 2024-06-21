@@ -24,7 +24,6 @@ The following variables have been used to generate the 2019 social capital index
 <img width="800" src="./variables.png">
 </p>
 
-
 ```{r}
 df <- read.csv("sci_2019.csv")
 head(df)
