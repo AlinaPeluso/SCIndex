@@ -3,6 +3,7 @@
 
 Reference paper: [Spatial analysis of social capital and community heterogeneity at the United States county level (2024)](https://www.sciencedirect.com/science/article/pii/S0143622823002990?dgcid=author)
 
+Peluso, Alina, et al. "Spatial analysis of social capital and community heterogeneity at the United States county level." Applied Geography 162 (2024): 103168.
 
 ## Section 0: Introduction
 
@@ -56,7 +57,7 @@ summary(df$sci)
 </p>
 
 The index varies in the range of $[-2.5,9.7]$ centered on the median. 
-
+Note: The precalculated 2019 SCI index is available in the data file named "sci_2019_W_SCI_index.csv".
 
 ## Section 3: Spatial distribution of the 2019 US county-level social capital index
 
