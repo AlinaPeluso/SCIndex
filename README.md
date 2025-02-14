@@ -57,6 +57,7 @@ summary(df$sci)
 </p>
 
 The index varies in the range of $[-2.5,9.7]$ centered on the median. 
+
 Note: The precalculated 2019 SCI index is available in the data file named "sci_2019_W_SCI_index.csv".
 
 ## Section 3: Spatial distribution of the 2019 US county-level social capital index
